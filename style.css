@@ -1,0 +1,8 @@
+/* clear margins around body */
+body{
+    margin:0;
+}
+/* add map height */
+#map{
+    height:100vh;
+}
