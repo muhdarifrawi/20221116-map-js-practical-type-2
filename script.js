@@ -15,7 +15,6 @@ async function taxiData() {
     let taxiCoordinates = response.data["features"][0]["geometry"]["coordinates"];
     return taxiCoordinates
 }
-// taxiData();
 
 async function busData() {
     let response = await axios.get("https://gist.githubusercontent.com/kunxin-chor/b0a3e50161cd7a53d1bcdc5cc93b11fe/raw/05716c38af2b960d0f34d4db1fef6ce38d42455e/bus-stop.json");
